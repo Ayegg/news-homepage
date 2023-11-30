@@ -1,0 +1,30 @@
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.main__row {
+    display: flex;
+    flex-direction: row;
+}
+
+.main__row-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.main__newslist {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.main__row-banner img {
+    width: 700px;
+}
+
+.main__row-cta {
+    display: flex;
+    flex-direction: column;
+}
