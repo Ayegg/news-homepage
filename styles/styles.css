@@ -39,4 +39,9 @@ body {
     font-family: var(--font-family);
     font-size: var(--body-copy-font-size);
     font-weight: var(--font-weight-normal);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
 }
